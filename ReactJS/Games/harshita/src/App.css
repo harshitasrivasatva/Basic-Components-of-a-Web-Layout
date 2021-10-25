@@ -1,0 +1,19 @@
+.th-card {
+  transition:all 1s ease ;
+  cursor:pointer;
+  height:150px;
+  background-color: rgb(53, 208, 251);
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.th-card:hover {
+  transform: scale3d(1.05%);  
+  background-color: rgb(3, 60, 174);
+  z-index: 1;
+
+}
